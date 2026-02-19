@@ -2,6 +2,9 @@ body {
     background-color: #ffffff;
     color:#666666;
     font-family: Verdana, Arial, sans-serif;
+    background-attachment: fixed;
+    
+    
 }
 header {
     background-color: #003058;
@@ -39,5 +42,6 @@ footer {
     margin-left: auto;
 }
 #studenthero {
-background-image: url(../images/studenthero.jpg);
+    background-image: url(../images/studenthero.jpg);
+    width:300px;
 }
