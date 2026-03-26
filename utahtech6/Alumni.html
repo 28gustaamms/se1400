@@ -27,20 +27,24 @@
       <main>
         <h2>Join Alumni Mailing List</h2>
         <h3>Request Alumni Newsletter</h3>
-        <form method="post" action=" https://kearl.net/se1400/mail.php">
-          <lable for="myFname">First Name: </lable>
-          <input type="text" name="myFname" id="myFname">
+        <p>Required information is marked with an asterisk (*).</p>
+        <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
+          <lable for="myFname">* First Name: </lable>
+          <input type="text" name="myFName" id="myFname">
           
-          <lable for="myLname">Last Name: </lable>
-          <input type="text" name="myLname" id="myLname">
+          <lable for="myLname">* Last Name: </lable>
+          <input type="text" name="myLName" id="myLname">
 
-          <lable for="myEmail">Email: </lable>
+          <lable for="myEmail">* Email: </lable>
           <input type="email" name="myEmail" id="myEmail">
 
           <lable for="myPhone">Phone Number: </lable>
           <input type="tel" name="myPhone" id="myPhone">
 
-        <lable for="myComments">Comments: </lable>
+          <lable for="myGraduation">Date: </lable>
+          <input type="date" name="myGraduation" id="myGraduation">
+
+        <lable for="myComments">* Comments: </lable>
         <textarea name="myComments" cols="20" rows="2" id="myComments"></textarea>
 
         <input type="submit" value="Submit" id="mysubmit">
