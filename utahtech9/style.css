@@ -161,7 +161,9 @@ footer {
     height: auto;
 }
 #shoppingcart{
+    display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin: 2rem;
 }
 form {
     display:grid;
